@@ -47,9 +47,9 @@ For
 
   - **code**::
 
-    for(i, 0, -10, -1);
-      int(int&i, int&i);
-    end();
+      		for(i, 0, -10, -1);
+        	  int(int&i, int&i);
+      		end();
 
   - **code C# relevant**::
 
