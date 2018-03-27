@@ -77,9 +77,11 @@ For
   - **code C# relevant**::
   
                 Bitmap image = (Bitmap) Image.FromFile(@"C:\Documents and Settings\" + @"All Users\Documents\My Documents\image.png", true);
+		Bitmap filter = (Bitmap) Image.FromFile(@"C:\Documents and Settings\" + @"All Users\Documents\My Documents\filter.png", true);
+		
                 for(int i = 0, i > 10, i++)
 		{
-	          exportedImage = aFunktionReleventToFilter(image);
+	          exportedImage = aFunktionReleventToFilter(image, filter);
 		  exportedImage.Save("image" + i + ".png");
 		  image = exportedImage;
 		}
