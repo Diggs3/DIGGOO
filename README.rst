@@ -71,7 +71,7 @@ For
 		for(i, 0, 10, 1);
 			ImgFilter(x, file&filter.png, y);
 				
-		save(y, file&image@int&i@.png);	
+		save(y, image@int&i@.png);	
 			end();
 			
   - **code C# relevant**::
