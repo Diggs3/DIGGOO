@@ -1,6 +1,0 @@
-Authors
--------
-
-* Simon CLJ
-
-
